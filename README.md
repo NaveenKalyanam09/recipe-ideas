@@ -1,12 +1,26 @@
-# React + Vite
+#  Recipe Ideas App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application where users can search for recipes by *dish name* or *ingredient*.  
+The app fetches data from [TheMealDB API](https://www.themealdb.com/) and displays recipe results in a clean and responsive UI.  
+Clicking a recipe card opens a modal with *ingredients, instructions, and a YouTube tutorial (if available).*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  Search recipes by name (e.g., biryani, tomato rice, pasta)  
+-  View recipe details: ingredients, instructions, YouTube link  
+-  Responsive card grid with hover effects  
+-  Mobile- and tablet-friendly design  
+-  Attractive modern UI with gradient background + glassmorphism cards  
+---
+
+##  Tech Stack
+
+- *React (Vite)* – Frontend framework  
+- *CSS* – Styling (no Tailwind, pure CSS)  
+- *TheMealDB API* – Recipe data source  
+- *Vercel* – Deployment  
+
+---
